@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Hector He'
 SITENAME = 'I am Hector'
-SITEURL = 'http://HectorHe.github.io'
+SITEURL = 'http://hectorhe.github.io'
 
 PATH = 'content'
 
@@ -35,6 +35,5 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 MARKUP = ('md', 'ipynb')
-
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb.markup']
